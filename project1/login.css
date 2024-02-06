@@ -1,0 +1,96 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  background-image: url(../imageaccess/hanger2.jpg);
+  object-fit: cover;
+}
+.container-fluid {
+  gap: 500px;
+  display: flex;
+  justify-content: center;
+}
+.navbar-brand {
+  margin-left: 100px;
+}
+.container {
+  background: url(../imageaccess/arrival1.avif);
+
+  position: absolute;
+  left: 35%;
+  bottom: 30%;
+  width: 550px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 2);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+button:hover {
+  background-color: black; /* Blue color on hover */
+}
+
+.menu {
+  position: relative;
+  cursor: pointer;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 2px 0;
+  margin-left: 10px;
+}
+
+.menu-options {
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: -20%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border: 1px solid #555;
+}
+
+.menu-options li {
+  padding: 10px;
+  text-align: right;
+}
+
+.menu-options a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  font-weight: bold;
+}
